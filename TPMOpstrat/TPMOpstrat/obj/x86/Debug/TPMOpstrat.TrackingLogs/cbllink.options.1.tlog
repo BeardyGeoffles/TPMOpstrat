@@ -1,0 +1,2 @@
+^C:\USERS\GEOFF\SOURCE\REPOS\TPMOPSTRAT\TPMOPSTRAT\OBJ\X86\DEBUG\001LOGIN.OBJ
+MFCBT_Options=-Oobj\x86\Debug\TPMOpstrat.exe -N -FM obj\x86\Debug\001Login.obj . MFCBT_Objs=obj\x86\Debug\002MainMenu.obj obj\x86\Debug\101User.obj obj\x86\Debug\211Cust.obj obj\x86\Debug\301Property.obj obj\x86\Debug\401Viewing.obj obj\x86\Debug\501MI.obj obj\x86\Debug\511MI.obj 

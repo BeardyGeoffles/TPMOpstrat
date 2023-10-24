@@ -1,0 +1,36 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{21E039B8-200C-457D-84C0-7C3534795977}</ProjectGuid>
+    <OutputName>TPMOpstrat</OutputName>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TPMOpstrat</RootNamespace>
+    <MFProjectType>Native</MFProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>.\bin\x86\Debug\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <ManagedCode>False</ManagedCode>
+    <DebugSymbols>True</DebugSymbols>
+    <MaxError>100</MaxError>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>.\bin\x86\Release\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <ManagedCode>False</ManagedCode>
+    <DebugSymbols>False</DebugSymbols>
+    <MaxError>100</MaxError>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="001Login.cbl" />
+    <Compile Include="002MainMenu.cbl" />
+    <Compile Include="101User.cbl" />
+    <Compile Include="211Cust.cbl" />
+    <Compile Include="301Property.cbl" />
+    <Compile Include="401Viewing.cbl" />
+    <Compile Include="501MI.cbl" />
+    <Compile Include="511MI.cbl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Micro Focus\Visual COBOL\v1.0\MicroFocus.COBOL.targets" />
+</Project>
